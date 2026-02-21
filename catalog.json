@@ -27,9 +27,25 @@
     { "id": "prod-0f6ef40f-021", "name": "Premium Item 21", "category": "electronics", "price": 68.29, "stock": 122, "rating": 1.1 }
   ],
   "aggregations": {
-    "books": {
-      "count": 3,
-      "inventoryValue": 168537.98
-    }
+  "books": {
+    "count": 3,
+    "inventoryValue": 168537.98
+  },
+  "electronics": {
+    "count": 5,
+    "inventoryValue": 118279.98
+  },
+  "clothing": {
+    "count": 6,
+    "inventoryValue": 226629.81
+  },
+  "sports": {
+    "count": 5,
+    "inventoryValue": 100910.99
+  },
+  "home": {
+    "count": 2,
+    "inventoryValue": 84978.96
   }
+}
 }
